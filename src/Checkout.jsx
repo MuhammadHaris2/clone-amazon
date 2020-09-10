@@ -26,7 +26,7 @@ const  Checkout=()=>{
                        {
                            cart.map(item=>(
                            <CheckoutProduct
-                              
+                              key={item.id}
                                id={item.id}
                                title={item.title}
                                image={item.image}
