@@ -27,6 +27,14 @@ const Home = ()=>{
                 price={20.35}
                 rating={5}
             />
+
+             <Products
+                id="11"
+                title="Ideal for Recording 4K UHD Video: Samsung micro SD EVO Select is perfect for high res devices"
+                images="https://images-na.ssl-images-amazon.com/images/I/81Cmetw9jTL._AC_SL1500_.jpg"
+                price={22.35}
+                rating={5}
+            />
             </div>
 
             <div className="hm__products">
@@ -47,6 +55,13 @@ const Home = ()=>{
                 rating={5}
             />
 
+            
+            
+
+            </div>
+
+<div className="hm__products">
+
             <Products
                 id="15"
                 title="Logitech BRIO Ultra HD Webcam for Video Conferencing, Recording, and Streaming"
@@ -55,11 +70,6 @@ const Home = ()=>{
                 rating={5}
             />
             
-
-            </div>
-
-<div className="hm__products">
-
             <Products
                 id="16"
                 title="Logitech USB Headset H390 with Noise Cancelling Mic"
@@ -67,8 +77,27 @@ const Home = ()=>{
                 price={30.09}
                 rating={5}
             />
+            
+            <Products
+                id="15"
+                title="Logitech BRIO Ultra HD Webcam for Video Conferencing, Recording, and Streaming"
+                images="https://images-na.ssl-images-amazon.com/images/I/61yuDpKZnLL._AC_SL1500_.jpg"
+                price={21.30}
+                rating={5}
+            />
 
            
+            </div>
+
+            <div className="hm__products">
+
+            <Products
+                id="13"
+                title="AmazonBasics HDMI to DVI Adapter Cable, Black, 6 Feet, 1-Pack"
+                images="https://m.media-amazon.com/images/I/711lDrVDlpL._AC_UL480_FMwebp_QL65_.jpg"
+                price={7.35}
+                rating={5}
+            />
             </div>
 
 

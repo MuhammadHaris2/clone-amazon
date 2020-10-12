@@ -1,4 +1,4 @@
-body{padding: 0; margin: 0; box-sizing: border-box; background-color: rgb(211,211,211);}
+body{padding: 0; margin: 0; box-sizing: border-box; background-color:rgb(232,232,232);}
 .header{
   background-color: #131921;
   display: flex;
@@ -10,10 +10,11 @@ body{padding: 0; margin: 0; box-sizing: border-box; background-color: rgb(211,21
 }
 
 .h_images{
+  width: 100px;
   object-fit:contain ;
   margin-left: 20px;
   margin-right: 20px;
-  width: 100px;
+ 
 }
 .h_search{
   display: flex;
@@ -26,9 +27,7 @@ body{padding: 0; margin: 0; box-sizing: border-box; background-color: rgb(211,21
  padding: 5px;
  border:none;
  width:100%;
- 
-
-
+ outline-width: 0;
 }
 .h_icon{
   padding: 1px;
@@ -70,9 +69,12 @@ body{padding: 0; margin: 0; box-sizing: border-box; background-color: rgb(211,21
 }
 
 .home{
+  display: flex;
+  flex-direction: column;
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+  
   
 }
 
@@ -111,6 +113,7 @@ body{padding: 0; margin: 0; box-sizing: border-box; background-color: rgb(211,21
 .product{
   display: flex;
   flex-direction:column;
+  
   width:100%;
   max-height: 400px;
   min-width: 100px;
